@@ -1,0 +1,8 @@
+title: Bootstrap-maxlength
+description: This plugin integrates by default with Twitter bootstrap using badges to display the maximum lenght of the field where the user is inserting text. Uses the HTML5 attribute "maxlength" to work.
+google_analytics: UA-1714199-17
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
