@@ -251,7 +251,7 @@
         if (maxLengthIndicator) {
           maxLengthIndicator.html(updateMaxLengthHTML(currentInput.val(), maxLengthCurrentInput, (maxLengthCurrentInput - remaining)));
 
-          if (remaining > 0) {
+          if (remaining > -1) {
             if (charsLeftThreshold(currentInput, options.threshold, maxLengthCurrentInput)) {
               showRemaining(currentInput, maxLengthIndicator.removeClass(options.limitReachedClass).addClass(options.warningClass));
             } else {
