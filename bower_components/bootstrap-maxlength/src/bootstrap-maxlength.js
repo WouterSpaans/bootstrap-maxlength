@@ -228,7 +228,7 @@
 
         if (options.allowOverMax) {
           // class to use for form validation on custom maxlength attribute
-          if (remaining < -1) {
+          if (remaining < 0) {
             currentInput.addClass('overmax');
           } else {
             currentInput.removeClass('overmax');
